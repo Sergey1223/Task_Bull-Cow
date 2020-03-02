@@ -1,0 +1,11 @@
+database\Attempt.class
+database\H2Connector.class
+GameServlet.class
+UserServlet.class
+database\UserAccount.class
+RatingServlet.class
+AuthorizationServlet.class
+Game.class
+database\Attempt$AttemptDao.class
+ResetGameServlet.class
+database\UserAccount$UserAccountDao.class

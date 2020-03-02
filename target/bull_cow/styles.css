@@ -1,0 +1,56 @@
+.digitButton{
+    width: 10%;
+    height: 10%;
+    background: cadetblue;
+    display: inline-block;
+    text-align: center;
+    font-size: 80px;
+    line-height: 100px;
+    cursor: default;
+}
+
+.digitButton:hover, .btn:hover{
+    background: chocolate;
+    color: white;
+}
+
+.btn{
+    background: cadetblue;
+    text-align: center;
+    font-size: 30px;
+    cursor: default;
+}
+
+#inputArea{
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 0;
+    line-height: 55px;
+    height: 60px;
+}
+
+body{
+    background-color: #D4E6B3;
+}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#rating tr:before{
+    content: counter(cntr);
+}
+
+tr{
+    counter-increment: cntr;
+}
+
+td, tbody tr:before{
+    padding: 1px;
+    border: 1px solid cadetblue;
+}
